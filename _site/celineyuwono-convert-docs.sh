@@ -1,19 +1,19 @@
 #!/bin/bash
 # Declare input argument as a variable
-INPUTFILE=$1
+gifmaking=$1
 
 
 # Convert markdown to HTML
-pandoc -o $INPUTFILE.html $INPUTFILE.md
+pandoc -o gifmaking.html gifmaking.md
 
 # Convert markdown to DOCX
-pandoc -o $INPUTFILE.docx $INPUTFILE.md
+pandoc -o gifmaking.docx gifmaking.md
 
 # Convert markdown to ODT
-pandoc -o $INPUTFILE.odt $INPUTFILE.md
+pandoc -o gifmaking.odt gifmaking.md
 
 # Convert markdown to PDF
-pandoc -o $INPUTFILE.pdf $INPUTFILE.md
+pandoc -o gifmaking.pdf gifmaking.md
 
 # Make the command line read "Converted INPUT-FILENAME to HTML, DOCX, ODT, PDF
 echo "Converted $INPUTFILE to HTML, DOCK, ODT, PDF"
