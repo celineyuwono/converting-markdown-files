@@ -2,14 +2,17 @@
 # Declare input argument as a variable
 INPUTFILE=$1
 
+echo Input file name that you want to convert: 
+read INPUTFILE
+echo ./celineyuwono-convert-docs.sh $INPUTFILE.md
 
 # Convert markdown to HTML
-pandoc -o gifmaking.html gifmaking.md
+pandoc -o $INPUTFILE.html $INPUTFILE.md
 # Convert markdown to DOCX
-pandoc -o gifmaking.docx gifmaking.md
+pandoc -o $INPUTFILE.docx $INPUTFILE.md
 # Convert markdown to ODT
-pandoc -o gifmaking.odt gifmaking.md
+pandoc -o $INPUTFILE.odt $INPUTFILE.md
 # Convert markdown to PDF
-pandoc -o gifmaking.pdf gifmaking.md
+pandoc -o $INPUTFILE.pdf $INPUTFILE.md
 # Make the command line read "Converted INPUT-FILENAME to HTML, DOCX, ODT, PDF
-echo "Converted $INPUTFILE to HTML, DOCK, ODT, PDF"
+echo "Converted $INPUTFILE to HTML, DOCX, ODT, PDF"
