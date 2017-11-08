@@ -23,7 +23,7 @@ Below are the steps to creating a simple GIF in Photoshop:
 6. (In the Bottom Left of Timeline Panel - Set animation to loop) Once > Forever
 7. (Save) File > Export > Save for Web
 
-![](media/image1.jpeg)
+![](media/image.jpeg)
 
 In addition to explaining about how to create a basic GIF, Kim and Kelsey also taught how to add images on top of GIFs in different times. 
 Overall, I am a bit confused in Kim and Kelsey’s way of explaining, but I get it in the end and it was a good experience. 
